@@ -14,6 +14,8 @@
 		3D74D9461DBB7A4400BE134F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D74D9441DBB7A4400BE134F /* LaunchScreen.storyboard */; };
 		3D74D94E1DBB7C4000BE134F /* RGBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */; };
 		3D74D9501DBB7D4900BE134F /* UI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */; };
+		3D8AB0651DBCC7D2007B698C /* RGBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */; };
+		3D8AB0671DBCC7FC007B698C /* RGBottomSheetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3D74D9471DBB7A4400BE134F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheet.swift; sourceTree = "<group>"; };
 		3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Extension.swift"; sourceTree = "<group>"; };
+		3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetView.swift; sourceTree = "<group>"; };
+		3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				3D74D93B1DBB7A4400BE134F /* AppDelegate.swift */,
+				3D74D93D1DBB7A4400BE134F /* ViewController.swift */,
 				3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */,
 				3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */,
-				3D74D93D1DBB7A4400BE134F /* ViewController.swift */,
+				3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */,
+				3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */,
 				3D74D93F1DBB7A4400BE134F /* Main.storyboard */,
 				3D74D9421DBB7A4400BE134F /* Assets.xcassets */,
 				3D74D9441DBB7A4400BE134F /* LaunchScreen.storyboard */,
@@ -146,6 +152,8 @@
 				3D74D94E1DBB7C4000BE134F /* RGBottomSheet.swift in Sources */,
 				3D74D93E1DBB7A4400BE134F /* ViewController.swift in Sources */,
 				3D74D93C1DBB7A4400BE134F /* AppDelegate.swift in Sources */,
+				3D8AB0651DBCC7D2007B698C /* RGBottomSheetView.swift in Sources */,
+				3D8AB0671DBCC7FC007B698C /* RGBottomSheetConfiguration.swift in Sources */,
 				3D74D9501DBB7D4900BE134F /* UI+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

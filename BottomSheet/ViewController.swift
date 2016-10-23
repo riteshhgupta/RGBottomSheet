@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+	
 	var sheet: RGBottomSheet?
 
 	var bottomView: UIView {
@@ -21,10 +21,9 @@ class ViewController: UIViewController {
 	}
 	
 	override func viewDidLoad() {
-		super.viewDidLoad()
+		super.viewDidLoad()		
 		let config = RGBottomSheetConfiguration(
-			showBlur: true,
-			blurStyle: UIBlurEffectStyle.light
+			showOverlay: true
 		)
 		
 		sheet = RGBottomSheet(
