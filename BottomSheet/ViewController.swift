@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-	let sheet = RGBottomSheet()
+	var sheet: RGBottomSheet?
 
 	var bottomView: UIView {
 		var screenBound = UIScreen.main.bounds
@@ -22,11 +22,19 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		sheet.configure(withContentView: bottomView)
+		let config = RGBottomSheetConfiguration(
+			showBlur: true,
+			blurStyle: UIBlurEffectStyle.light
+		)
+		
+		sheet = RGBottomSheet(
+			withContentView: bottomView,
+			configuration: config
+		)
 	}
 
 	@IBAction func didTapShow(_ sender: UIButton) {
-		sheet.show()
+		sheet?.show()
 	}
 	
 	override func didReceiveMemoryWarning() {
