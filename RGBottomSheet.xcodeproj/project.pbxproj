@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D74D93C1DBB7A4400BE134F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D93B1DBB7A4400BE134F /* AppDelegate.swift */; };
-		3D74D93E1DBB7A4400BE134F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D93D1DBB7A4400BE134F /* ViewController.swift */; };
-		3D74D9411DBB7A4400BE134F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D74D93F1DBB7A4400BE134F /* Main.storyboard */; };
-		3D74D9431DBB7A4400BE134F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D74D9421DBB7A4400BE134F /* Assets.xcassets */; };
-		3D74D9461DBB7A4400BE134F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D74D9441DBB7A4400BE134F /* LaunchScreen.storyboard */; };
-		3D74D94E1DBB7C4000BE134F /* RGBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */; };
-		3D74D9501DBB7D4900BE134F /* UI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */; };
-		3D8AB0651DBCC7D2007B698C /* RGBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */; };
-		3D8AB0671DBCC7FC007B698C /* RGBottomSheetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */; };
+		3D8AB0AA1DBD16FD007B698C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB09E1DBD16FD007B698C /* LaunchScreen.storyboard */; };
+		3D8AB0AB1DBD16FD007B698C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A01DBD16FD007B698C /* Main.storyboard */; };
+		3D8AB0AC1DBD16FD007B698C /* RGBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A21DBD16FD007B698C /* RGBottomSheetView.swift */; };
+		3D8AB0AD1DBD16FD007B698C /* RGBottomSheetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A31DBD16FD007B698C /* RGBottomSheetConfiguration.swift */; };
+		3D8AB0AE1DBD16FD007B698C /* RGBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A41DBD16FD007B698C /* RGBottomSheet.swift */; };
+		3D8AB0AF1DBD16FD007B698C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A51DBD16FD007B698C /* ViewController.swift */; };
+		3D8AB0B01DBD16FD007B698C /* UI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A61DBD16FD007B698C /* UI+Extension.swift */; };
+		3D8AB0B11DBD16FD007B698C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A71DBD16FD007B698C /* AppDelegate.swift */; };
+		3D8AB0B21DBD16FD007B698C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A81DBD16FD007B698C /* Assets.xcassets */; };
+		3D8AB0B31DBD16FD007B698C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB0A91DBD16FD007B698C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D74D9381DBB7A4400BE134F /* BottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D74D93B1DBB7A4400BE134F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D74D93D1DBB7A4400BE134F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D74D9401DBB7A4400BE134F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D74D9421DBB7A4400BE134F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D74D9451DBB7A4400BE134F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D74D9471DBB7A4400BE134F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheet.swift; sourceTree = "<group>"; };
-		3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Extension.swift"; sourceTree = "<group>"; };
-		3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetView.swift; sourceTree = "<group>"; };
-		3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetConfiguration.swift; sourceTree = "<group>"; };
+		3D74D9381DBB7A4400BE134F /* RGBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8AB09F1DBD16FD007B698C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D8AB0A11DBD16FD007B698C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8AB0A21DBD16FD007B698C /* RGBottomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetView.swift; sourceTree = "<group>"; };
+		3D8AB0A31DBD16FD007B698C /* RGBottomSheetConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheetConfiguration.swift; sourceTree = "<group>"; };
+		3D8AB0A41DBD16FD007B698C /* RGBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBottomSheet.swift; sourceTree = "<group>"; };
+		3D8AB0A51DBD16FD007B698C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D8AB0A61DBD16FD007B698C /* UI+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Extension.swift"; sourceTree = "<group>"; };
+		3D8AB0A71DBD16FD007B698C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8AB0A81DBD16FD007B698C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8AB0A91DBD16FD007B698C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,42 +47,58 @@
 		3D74D92F1DBB7A4400BE134F = {
 			isa = PBXGroup;
 			children = (
-				3D74D93A1DBB7A4400BE134F /* BottomSheet */,
 				3D74D9391DBB7A4400BE134F /* Products */,
+				3D74D93A1DBB7A4400BE134F /* RGBottomSheet */,
+				3D8AB0B41DBD17CE007B698C /* Source */,
 			);
 			sourceTree = "<group>";
 		};
 		3D74D9391DBB7A4400BE134F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D74D9381DBB7A4400BE134F /* BottomSheet.app */,
+				3D74D9381DBB7A4400BE134F /* RGBottomSheet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D74D93A1DBB7A4400BE134F /* BottomSheet */ = {
+		3D74D93A1DBB7A4400BE134F /* RGBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				3D74D93B1DBB7A4400BE134F /* AppDelegate.swift */,
-				3D74D93D1DBB7A4400BE134F /* ViewController.swift */,
-				3D74D94F1DBB7D4900BE134F /* UI+Extension.swift */,
-				3D74D94D1DBB7C4000BE134F /* RGBottomSheet.swift */,
-				3D8AB0641DBCC7D2007B698C /* RGBottomSheetView.swift */,
-				3D8AB0661DBCC7FC007B698C /* RGBottomSheetConfiguration.swift */,
-				3D74D93F1DBB7A4400BE134F /* Main.storyboard */,
-				3D74D9421DBB7A4400BE134F /* Assets.xcassets */,
-				3D74D9441DBB7A4400BE134F /* LaunchScreen.storyboard */,
-				3D74D9471DBB7A4400BE134F /* Info.plist */,
+				3D8AB09D1DBD16FD007B698C /* Base.lproj */,
+				3D8AB0A71DBD16FD007B698C /* AppDelegate.swift */,
+				3D8AB0A81DBD16FD007B698C /* Assets.xcassets */,
+				3D8AB0A91DBD16FD007B698C /* Info.plist */,
+				3D8AB0A61DBD16FD007B698C /* UI+Extension.swift */,
+				3D8AB0A51DBD16FD007B698C /* ViewController.swift */,
 			);
-			path = BottomSheet;
+			path = RGBottomSheet;
+			sourceTree = "<group>";
+		};
+		3D8AB09D1DBD16FD007B698C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB09E1DBD16FD007B698C /* LaunchScreen.storyboard */,
+				3D8AB0A01DBD16FD007B698C /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		3D8AB0B41DBD17CE007B698C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB0A41DBD16FD007B698C /* RGBottomSheet.swift */,
+				3D8AB0A31DBD16FD007B698C /* RGBottomSheetConfiguration.swift */,
+				3D8AB0A21DBD16FD007B698C /* RGBottomSheetView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D74D9371DBB7A4400BE134F /* BottomSheet */ = {
+		3D74D9371DBB7A4400BE134F /* RGBottomSheet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D74D94A1DBB7A4400BE134F /* Build configuration list for PBXNativeTarget "BottomSheet" */;
+			buildConfigurationList = 3D74D94A1DBB7A4400BE134F /* Build configuration list for PBXNativeTarget "RGBottomSheet" */;
 			buildPhases = (
 				3D74D9341DBB7A4400BE134F /* Sources */,
 				3D74D9351DBB7A4400BE134F /* Frameworks */,
@@ -91,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = BottomSheet;
+			name = RGBottomSheet;
 			productName = BottomSheet;
-			productReference = 3D74D9381DBB7A4400BE134F /* BottomSheet.app */;
+			productReference = 3D74D9381DBB7A4400BE134F /* RGBottomSheet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,11 +126,12 @@
 					3D74D9371DBB7A4400BE134F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = G436LJ5F52;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3D74D9331DBB7A4400BE134F /* Build configuration list for PBXProject "BottomSheet" */;
+			buildConfigurationList = 3D74D9331DBB7A4400BE134F /* Build configuration list for PBXProject "RGBottomSheet" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D74D9371DBB7A4400BE134F /* BottomSheet */,
+				3D74D9371DBB7A4400BE134F /* RGBottomSheet */,
 			);
 		};
 /* End PBXProject section */
@@ -136,9 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D74D9461DBB7A4400BE134F /* LaunchScreen.storyboard in Resources */,
-				3D74D9431DBB7A4400BE134F /* Assets.xcassets in Resources */,
-				3D74D9411DBB7A4400BE134F /* Main.storyboard in Resources */,
+				3D8AB0B31DBD16FD007B698C /* Info.plist in Resources */,
+				3D8AB0AA1DBD16FD007B698C /* LaunchScreen.storyboard in Resources */,
+				3D8AB0B21DBD16FD007B698C /* Assets.xcassets in Resources */,
+				3D8AB0AB1DBD16FD007B698C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +168,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D74D94E1DBB7C4000BE134F /* RGBottomSheet.swift in Sources */,
-				3D74D93E1DBB7A4400BE134F /* ViewController.swift in Sources */,
-				3D74D93C1DBB7A4400BE134F /* AppDelegate.swift in Sources */,
-				3D8AB0651DBCC7D2007B698C /* RGBottomSheetView.swift in Sources */,
-				3D8AB0671DBCC7FC007B698C /* RGBottomSheetConfiguration.swift in Sources */,
-				3D74D9501DBB7D4900BE134F /* UI+Extension.swift in Sources */,
+				3D8AB0B11DBD16FD007B698C /* AppDelegate.swift in Sources */,
+				3D8AB0AE1DBD16FD007B698C /* RGBottomSheet.swift in Sources */,
+				3D8AB0AD1DBD16FD007B698C /* RGBottomSheetConfiguration.swift in Sources */,
+				3D8AB0AF1DBD16FD007B698C /* ViewController.swift in Sources */,
+				3D8AB0B01DBD16FD007B698C /* UI+Extension.swift in Sources */,
+				3D8AB0AC1DBD16FD007B698C /* RGBottomSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3D74D93F1DBB7A4400BE134F /* Main.storyboard */ = {
+		3D8AB09E1DBD16FD007B698C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D74D9401DBB7A4400BE134F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3D74D9441DBB7A4400BE134F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D74D9451DBB7A4400BE134F /* Base */,
+				3D8AB09F1DBD16FD007B698C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		3D8AB0A01DBD16FD007B698C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8AB0A11DBD16FD007B698C /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,11 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = G436LJ5F52;
-				INFOPLIST_FILE = BottomSheet/Info.plist;
+				INFOPLIST_FILE = RGBottomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritesh.BottomSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -288,8 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = G436LJ5F52;
-				INFOPLIST_FILE = BottomSheet/Info.plist;
+				INFOPLIST_FILE = RGBottomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritesh.BottomSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D74D9331DBB7A4400BE134F /* Build configuration list for PBXProject "BottomSheet" */ = {
+		3D74D9331DBB7A4400BE134F /* Build configuration list for PBXProject "RGBottomSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D74D9481DBB7A4400BE134F /* Debug */,
@@ -309,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D74D94A1DBB7A4400BE134F /* Build configuration list for PBXNativeTarget "BottomSheet" */ = {
+		3D74D94A1DBB7A4400BE134F /* Build configuration list for PBXNativeTarget "RGBottomSheet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D74D94B1DBB7A4400BE134F /* Debug */,

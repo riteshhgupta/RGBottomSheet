@@ -1,6 +1,6 @@
 //
 //  RGBottomSheetView.swift
-//  BottomSheet
+//  RGBottomSheet
 //
 //  Created by Ritesh Gupta on 23/10/16.
 //  Copyright © 2016 Ritesh Gupta. All rights reserved.
@@ -36,7 +36,9 @@ class RGBottomSheetView: UIView {
 		self.init(withContentView: UIView(), configuration: RGBottomSheetConfiguration())
 	}
 	
-	fileprivate func commonInit(configuration: RGBottomSheetConfiguration = RGBottomSheetConfiguration()) {
+	fileprivate func commonInit(
+		configuration: RGBottomSheetConfiguration = RGBottomSheetConfiguration())
+	{
 		configureSelf()
 		configureOverlayButton()
 		configureOverlay(withConfiguration: configuration)

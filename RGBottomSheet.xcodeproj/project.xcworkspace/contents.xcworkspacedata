@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BottomSheet.xcodeproj">
+      location = "self:/Users/riteshgupta/Workspace/Personal/iOS/BottomSheet/RGBottomSheet.xcodeproj">
    </FileRef>
 </Workspace>

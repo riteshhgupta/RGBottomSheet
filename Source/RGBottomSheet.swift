@@ -1,6 +1,6 @@
 //
 //  RGBottomSheet.swift
-//  BottomSheet
+//  RGBottomSheet
 //
 //  Created by Ritesh Gupta on 22/10/16.
 //  Copyright © 2016 Ritesh Gupta. All rights reserved.
