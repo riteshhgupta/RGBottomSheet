@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()		
 		let config = RGBottomSheetConfiguration(
-			showOverlay: true
+			showBlur: true
 		)
 		
 		sheet = RGBottomSheet(

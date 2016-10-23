@@ -94,8 +94,7 @@ class RGBottomSheetView: UIView {
 	}
 	
 	fileprivate func addSubviews() {
-		let contentViewHeight = Int(contentView.bounds.height)
-		
+		let contentViewHeight = Int(contentView.bounds.height)		
 		add(
 			subview: blurView,
 			viewsDict: ["bottomSheetBlurView": blurView]
