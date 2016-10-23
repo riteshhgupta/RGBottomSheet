@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
 	let sheet = RGBottomSheet()
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+	var bottomView: UIView {
 		var screenBound = UIScreen.main.bounds
 		screenBound.size.height = 200.0
 		let bottomView = UIView(frame: screenBound)
-		bottomView.backgroundColor = UIColor.blue
-		sheet.configure(withView: bottomView)
+		bottomView.backgroundColor = UIColor.white
+		return bottomView
+	}
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		sheet.configure(withContentView: bottomView)
 	}
 
 	@IBAction func didTapShow(_ sender: UIButton) {

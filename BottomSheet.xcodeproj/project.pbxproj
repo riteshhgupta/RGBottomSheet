@@ -102,6 +102,7 @@
 				TargetAttributes = {
 					3D74D9371DBB7A4400BE134F = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G436LJ5F52;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G436LJ5F52;
 				INFOPLIST_FILE = BottomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritesh.BottomSheet;
@@ -278,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G436LJ5F52;
 				INFOPLIST_FILE = BottomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritesh.BottomSheet;
@@ -305,6 +308,7 @@
 				3D74D94C1DBB7A4400BE134F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

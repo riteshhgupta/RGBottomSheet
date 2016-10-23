@@ -12,6 +12,7 @@ import UIKit
 class RGBottomSheetView: UIView {
 	var contentView: UIView?
 	var overlayView: UIButton?
+	var blurView: UIVisualEffectView?
 	var contentViewBottomConstraint: NSLayoutConstraint?
 	
 	init() {
@@ -30,16 +31,22 @@ class RGBottomSheetView: UIView {
 	}
 	
 	func commonInit() {
-		let screenBounds = UIScreen.main.bounds
+		let screenBound = UIScreen.main.bounds
 
 		backgroundColor = UIColor.clear
 		alpha = 0.0
-		frame = screenBounds
-
+		frame = screenBound
+		
 		let color = UIColor.black.withAlphaComponent(0.7)
-		overlayView = UIButton(frame: screenBounds)
+		overlayView = UIButton(frame: screenBound)
 		overlayView?.backgroundColor = color
 		overlayView?.alpha = 0.0
+		
+		let effect = UIBlurEffect(style: .dark)
+		blurView = UIVisualEffectView(frame: screenBound)
+		blurView?.effect = effect
+		blurView?.alpha = 0.0
+		blurView?.isUserInteractionEnabled = false
 	}
 }
 
@@ -54,9 +61,13 @@ class RGBottomSheet {
 		}
 	}
 	
-	func configure(withView view: UIView) {
-		let contentViewHeight = Int(view.bounds.height)
-		sheetView.contentView = view
+	func configure(withContentView contentView: UIView) {
+		let contentViewHeight = Int(contentView.bounds.height)
+		sheetView.contentView = contentView
+		sheetView.add(
+			subview: self.sheetView.blurView!,
+			viewsDict: ["bottomSheetBlurView": self.sheetView.blurView!]
+		)
 		sheetView.add(
 			subview: self.sheetView.overlayView!,
 			viewsDict: ["bottomSheetOverlayView": self.sheetView.overlayView!]
@@ -68,8 +79,8 @@ class RGBottomSheet {
 				.Right(0, nil),
 				.Height(contentViewHeight)
 			],
-			subview: view,
-			viewsDict: ["bottomSheetContentView": view],
+			subview: contentView,
+			viewsDict: ["bottomSheetContentView": contentView],
 			completionHandler: { [weak self] constraints in
 				let bottomConstraint = constraints
 					.filter { $0.0 == UIView.ConstraintType.Bottom(0, nil) }
@@ -101,6 +112,7 @@ class RGBottomSheet {
 
 		animateWithDefaultOptions(animation: { 
 			self.sheetView.overlayView?.alpha = 1.0
+			self.sheetView.blurView?.alpha = 1.0
 			self.topWindow?.layoutIfNeeded()
 		})
 	}
@@ -111,6 +123,7 @@ class RGBottomSheet {
 
 		animateWithDefaultOptions(animation: {
 			self.sheetView.overlayView?.alpha = 0.0
+			self.sheetView.blurView?.alpha = 0.0
 			self.topWindow?.layoutIfNeeded()
 			
 			}) { 
@@ -120,9 +133,9 @@ class RGBottomSheet {
 	
 	func animateWithDefaultOptions(animation: @escaping () -> Void, completion: (() -> Void)? = nil) {
 		UIView.animate(
-			withDuration: 0.3,
+			withDuration: 0.4,
 			delay: 0.0,
-			usingSpringWithDamping: 0.9,
+			usingSpringWithDamping: 0.8,
 			initialSpringVelocity: 1.0,
 			options: UIViewAnimationOptions.beginFromCurrentState,
 			animations: {
