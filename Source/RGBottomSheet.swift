@@ -14,9 +14,9 @@ public typealias Callback = () -> ()
 open class RGBottomSheet {
 	
 	fileprivate let sheetView: RGBottomSheetView
-	fileprivate let configuration: RGBottomSheetConfiguration
 	fileprivate var topWindow: UIWindow?
 	
+	public let configuration: RGBottomSheetConfiguration
 	public var willShow: Callback?
 	public var didShow: Callback?
 	public var willHide: Callback?

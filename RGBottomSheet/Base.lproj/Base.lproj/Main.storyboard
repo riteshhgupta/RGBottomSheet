@@ -21,22 +21,38 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ErL-mq-C1E">
                                 <color key="backgroundColor" red="0.84705882349999995" green="0.24313725489999999" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="1Bi-xo-drP"/>
-                                    <constraint firstAttribute="height" constant="64" id="Wn9-BA-s6r"/>
+                                    <constraint firstAttribute="height" constant="64" id="Zy4-LH-zWX"/>
+                                    <constraint firstAttribute="width" constant="160" id="k6k-1d-ZbI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Open RGBottomSheet">
+                                <state key="normal" title="Blur">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zaS-k8-MLL"/>
+                                    <action selector="didTapBlur:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3C-e6-TRM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9I-OF-p4n">
+                                <color key="backgroundColor" red="0.84705882349999995" green="0.24313725489999999" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="3Fp-lE-Fnv"/>
+                                    <constraint firstAttribute="width" constant="160" id="lyN-0d-DbC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Translucent">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTranslucent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eQz-56-wf6"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ErL-mq-C1E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qg-bL-3ZA"/>
-                            <constraint firstItem="ErL-mq-C1E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wG4-C0-Efp"/>
+                            <constraint firstAttribute="trailing" secondItem="N9I-OF-p4n" secondAttribute="trailing" constant="16" id="Gca-6S-HOA"/>
+                            <constraint firstItem="N9I-OF-p4n" firstAttribute="top" secondItem="ErL-mq-C1E" secondAttribute="top" id="VSX-pW-COt"/>
+                            <constraint firstItem="ErL-mq-C1E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="nMt-g8-XLm"/>
+                            <constraint firstItem="ErL-mq-C1E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="s5T-ZN-UPy"/>
                         </constraints>
                     </view>
                 </viewController>

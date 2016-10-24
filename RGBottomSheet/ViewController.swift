@@ -25,14 +25,21 @@ class ViewController: UIViewController {
 		let config = RGBottomSheetConfiguration(
 			showBlur: true
 		)
-		
 		sheet = RGBottomSheet(
 			withContentView: bottomView,
 			configuration: config
 		)
 	}
+	
+	@IBAction func didTapBlur(_ sender: UIButton) {
+		sheet?.configuration.showBlur = true
+		sheet?.configuration.showOverlay = false
+		sheet?.show()
+	}
 
-	@IBAction func didTapShow(_ sender: UIButton) {
+	@IBAction func didTapTranslucent(_ sender: UIButton) {
+		sheet?.configuration.showBlur = false
+		sheet?.configuration.showOverlay = true
 		sheet?.show()
 	}
 	
