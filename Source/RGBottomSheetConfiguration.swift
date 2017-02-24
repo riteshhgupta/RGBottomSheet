@@ -34,7 +34,7 @@ open class RGBottomSheetConfiguration {
 		return showBlur ? 1.0 : 0.0
 	}
 	
-	init(
+	public init(
 		showOverlay: Bool = false,
 		showBlur: Bool = false,
 		overlayTintColor: UIColor = UIColor.black.withAlphaComponent(0.7),

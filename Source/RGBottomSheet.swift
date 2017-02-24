@@ -22,7 +22,7 @@ open class RGBottomSheet {
 	public var willHide: Callback?
 	public var didHide: Callback?
 	
-	init(
+	public init(
 		withContentView contentView: UIView,
 		configuration: RGBottomSheetConfiguration = RGBottomSheetConfiguration())
 	{
